@@ -1,0 +1,30 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.app-name {
+  font-size: 20px;
+  font-family: "lato", "sans-serif";
+  font-weight: bold;
+}
+.has-gradiant-text {
+  background: -webkit-linear-gradient(#13f7f4, #7368e8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.board-bar {
+  padding: 8px 15px;
+  color: #4851b3;
+  background: rgba(81, 80, 80, 0.453);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.6px);
+  -webkit-backdrop-filter: blur(5.6px);
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+p.board-name{
+  font-size: px !important;
+  font-weight: bold !important;
+  color:#fff !important;
+}
